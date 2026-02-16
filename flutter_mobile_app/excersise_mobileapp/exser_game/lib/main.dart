@@ -1,19 +1,22 @@
 import 'package:flutter/material.dart';
-import 'screens/welcome_screen.dart';
+import 'screens/start_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const StepTouchApp());
+  runApp(const ExerGameApp());
 }
 
-class StepTouchApp extends StatelessWidget {
-  const StepTouchApp({super.key});
+class ExerGameApp extends StatelessWidget {
+  const ExerGameApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WelcomeScreen(),
+      theme: ThemeData(
+        primarySwatch: Colors.purple,
+      ),
+      home: const StartScreen(),
     );
   }
 }

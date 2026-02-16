@@ -535,7 +535,7 @@ def main():
         # overlay UI elements depending on page
         if page == 1:
             # show Start button (moved upward)
-            start_btn.draw(screen)Remove-Item -Recurse -Force .git
+            start_btn.draw(screen)
 
             
         elif page == 2:

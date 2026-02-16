@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv39/
+
+# PyInstaller build folders
+build/
+dist/
+
+# Logs
+game_logs/
+
+# Installer output
+installer_output/

@@ -1,0 +1,29 @@
+Name,Age,Height_cm,Weight_kg,Exercise_Type,Score,Feedback,Date,Time
+Madhumitha,24,152,52,sed_cardio_step_touch,4,Very good — posture improving!,2026-01-04,20:12:41
+Madhumitha,24,152,52,sed_strength_side_leg,3,Steady — form improving!,2026-01-04,20:24:38
+Madhumitha,24,152,52,sed_stretch_side_stretch,2,Good — bending with control!,2026-01-04,20:33:32
+Sangeetha,42,155,62,pcod_cardio_low_march,8,Great stamina! You’re marching strong and maintaining rhythm.,2026-01-04,20:38:54
+sangeetha,42,155,62,pcod_strength_squats,3,Steady — squats improving!,2026-01-04,20:48:38
+Sangeetha,42,155,62,pcod_stretch_spinal_twist,5,Solid — consistent reps!,2026-01-04,20:54:59
+,,,,pcod_strength_squats_easy,1,Keep practicing — you're getting started!,2026-01-20,11:06:00
+,,,,pcod_strength_squats_easy,1,3,Good effort!,2026-01-20,11:41:58
+,,,,pcod_strength_squats_easy,10,Perfect score!,2026-01-22,11:08:08
+,,,,pcod_strength_squats_easy,12,Excellent! You completed the hydration quest perfectly with full energy!,2026-01-25,11:46:23
+,,,,pcod_strength_squats_easy,10,Perfect — superb performance!,2026-01-25,20:03:42
+,,,,pcod_strength_squats_easy,0,,2026-01-25,20:06:07
+,,,,pcod_strength_squats_easy,0,,2026-01-25,20:11:05
+,,,,pcod_strength_squats_easy,0,,2026-01-25,20:40:04
+,,,,pcod_strength_squats_easy,0,,2026-01-25,21:18:55
+,,,,sed_cardio_step_touch_easy,32,Excellent workout performance,2026-01-25,21:47:03
+,,,,sed_cardio_step_touch_easy,27,Good cardio endurance,2026-01-25,22:11:09
+,,,,sed_cardio_step_touch_easy,16,Beginner — start building strength!,2026-01-26,10:23:42
+,,,,sed_cardio_step_touch_easy,7,Powerful — excellent technique!,2026-01-26,11:04:36
+,,,,sed_cardio_step_touch_easy,13,Excellent! You completed the hydration quest perfectly with full energy!,2026-01-26,11:18:00
+,,,,sed_cardio_step_touch_easy,0,,2026-01-26,11:39:20
+,,,,sed_cardio_step_touch_easy,4,Strong — form getting better!,2026-01-26,11:46:34
+,,,,sed_cardio_step_touch_easy,3,Good start! You’ve begun strengthening – aim for a few more squats next time.,2026-01-26,11:55:57
+,,,,sed_cardio_step_touch_easy,0,"Let’s try again – begin with comfortable, shallow squats at your own pace.",2026-01-26,11:56:51
+,,,,sed_cardio_step_touch_easy,0,"Let’s try again – begin with comfortable, shallow squats at your own pace.",2026-01-26,11:57:44
+,,,,sed_cardio_step_touch_easy,11,Perfect — superb performance!,2026-01-26,13:56:23
+Madhumitha S,24,152,52,sed_cardio_step_touch_easy,32,Excellent workout performance,2026-01-26,14:38:20
+,,,,sed_cardio_step_touch_easy,2,Needs more practice,2026-01-29,09:36:39

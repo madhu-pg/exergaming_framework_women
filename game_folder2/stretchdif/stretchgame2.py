@@ -33,10 +33,10 @@ MAX_SCORE = 80 # = 16 * 5
 
 # ------------------ LOAD IMAGES ------------------
 avatar_images = [
-    cv2.imread("image-1 (1).png", cv2.IMREAD_UNCHANGED),
-    cv2.imread("image-2 (1).png", cv2.IMREAD_UNCHANGED),
-    cv2.imread("image-3 (1).png", cv2.IMREAD_UNCHANGED),
-    cv2.imread("image-4 (1).png", cv2.IMREAD_UNCHANGED)
+    cv2.imread(os.path.join(GAME_DIR, "image-1 (1).png"), cv2.IMREAD_UNCHANGED),
+    cv2.imread(os.path.join(GAME_DIR, "image-2 (1).png"), cv2.IMREAD_UNCHANGED),
+    cv2.imread(os.path.join(GAME_DIR, "image-3 (1).png"), cv2.IMREAD_UNCHANGED),
+    cv2.imread(os.path.join(GAME_DIR, "image-4 (1).png"), cv2.IMREAD_UNCHANGED)
 ]
 background = cv2.imread(os.path.join(GAME_DIR, "backgroundstretch.png"))
 if background is not None:
@@ -56,7 +56,7 @@ pygame.font.init()
 
 # load increment sound (same filename as your previous code)
 try:
-    increment_sound = pygame.mixer.Sound("correct-156911.mp3")
+    increment_sound = pygame.mixer.Sound(os.path.join(GAME_DIR, "correct-156911.mp3"))
 except Exception:
     increment_sound = None
 

@@ -283,7 +283,7 @@ def run_game():
 
         # Save to CSV
         try:
-            csv_file = os.path.join(APP_ROOT, "exergame_results.csv")
+            csv_file = os.path.join(APP_ROOT, "exergame_results1.csv")
             file_exists = os.path.isfile(csv_file)
             now = datetime.datetime.now()
             date_str = now.strftime("%Y-%m-%d")

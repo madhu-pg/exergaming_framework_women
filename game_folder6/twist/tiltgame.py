@@ -30,12 +30,12 @@ DISPLAY_FPS_DELAY = 10
 BORDER_GREEN_DURATION = 1.0
 
 # ------------------ ASSET PATHS ------------------
-BG_PATH = "backgorund.png"
-LEFT_TOP_PATH = "left top.png"
-RIGHT_TOP_PATH = "right top.png"
-AVATAR_LEFT_PATH = "left avatar.png"
-AVATAR_RIGHT_PATH = "right avatar.png"
-INCREMENT_SOUND = "correct-156911.mp3"
+BG_PATH = os.path.join(GAME_DIR, "backgorund.png")
+LEFT_TOP_PATH = os.path.join(GAME_DIR, "left top.png")
+RIGHT_TOP_PATH = os.path.join(GAME_DIR, "right top.png")
+AVATAR_LEFT_PATH = os.path.join(GAME_DIR, "left avatar.png")
+AVATAR_RIGHT_PATH = os.path.join(GAME_DIR, "right avatar.png")
+INCREMENT_SOUND = os.path.join(GAME_DIR, "correct-156911.mp3")
 
 # ------------------ VISUAL SETTINGS ------------------
 LEFT_TOP_POS = (0.18, 0.60)

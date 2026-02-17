@@ -252,7 +252,7 @@ def show_output_screen(final_score):
     instruction = "Press ESC or Q to exit (or ENTER to continue)"
         # ---------- SAVE RESULT TO CSV ----------
     try:
-        csv_file = os.path.join(APP_ROOT, "exergame_results.csv")
+        csv_file = os.path.join(APP_ROOT, "exergame_results1.csv")
         file_exists = os.path.isfile(csv_file)
 
         now = datetime.datetime.now()

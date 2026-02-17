@@ -25,10 +25,10 @@ GAME_DIR = get_game_asset_dir('game_folder5/squatdif')
 APP_ROOT = get_data_dir()  # For CSV/JSON writes
 
 # ---------------- CONFIG ----------------
-BG_FILE = "background.png"
-AVATAR_FILE = "avatar (1).png"
-BRICK_FILE = "brick.png"
-CELEBRATE_FILE = "celebrate.png"
+BG_FILE = os.path.join(GAME_DIR, "background.png")
+AVATAR_FILE = os.path.join(GAME_DIR, "avatar (1).png")
+BRICK_FILE = os.path.join(GAME_DIR, "brick.png")
+CELEBRATE_FILE = os.path.join(GAME_DIR, "celebrate.png")
 
 # Changed: always 5 bricks per squat for each step in sequence
 BRICK_PER_SQUAT = [5, 5, 5, 5, 5]
@@ -78,7 +78,7 @@ except Exception as e:
 # load correct-answer sound (safe fallback)
 correct_sound = None
 try:
-    correct_sound = pygame.mixer.Sound("correct-156911.mp3")
+    correct_sound = pygame.mixer.Sound(os.path.join(GAME_DIR, "correct-156911.mp3"))
     # optional: set a sensible volume (0.0 to 1.0)
     correct_sound.set_volume(0.7)
 except Exception as e:
